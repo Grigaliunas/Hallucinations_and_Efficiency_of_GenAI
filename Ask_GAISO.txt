@@ -1,0 +1,901 @@
+Security-Specific Dimension: HUMAN SECURITY (HumSec)
+
+HumSec Sub-Dimension: Employee lifecycle management
+
+Assessment Category: Ability to analyse different file formats
+Assessment criteria:
+Can you manage *.txt, *.docx, and .pdf files to figure out a potential employee's skills?
+Can you manage *.txt, *.docx, .pdf, *.csv, and .xlsx files to figure out an employee's skills before and after training? 
+
+Assessment Category: Accuracy of analysis
+Assessment criteria:
+Can you extract relevant employee competencies from a file?
+Can you extract changes in employee competencies from a file?
+
+Assessment Category: Extraction of structured information
+Assessment criteria:
+Can you generate a statistical summary of employee competencies and work experience?
+Can it convert employee training data into a structured table (e.g., CSV, Excel)?
+
+Assessment Category: Searching and filtering capabilities
+Assessment criteria:
+Can it filter employees by their experience and certifications?
+Can it filter employees by their training results?
+
+Assessment Category: Detection of anomalies and incidents
+Assessment criteria:
+Can it identify employees whose competencies remained unchanged before and after training?
+Can it identify employees whose competencies deteriorated after training?
+
+Assessment Category: Speed and performance
+Assessment criteria:
+Can it process several employee competency files at once (e.g., 3–5 files in different formats)?
+
+Assessment Category: Data visualisation
+Assessment criteria:
+Can you generate visualizations of an employee's IT/cyber security skills?
+Can you generate visualizations of an employee's IT/cyber security skills before and after training?
+
+---
+
+HumSec Sub-Dimension: Incident response, behavior management            
+
+Assessment Category: Ability to analyse different file formats
+Assessment criteria:
+Can you process files in *.txt, *.docx, .pdf, *.csv, and .xlsx formats to determine employee response to incidents? 
+Can you process files in *.txt, *.docx, .pdf, *.csv, .xlsx formats to determine employee response to incidents before and after training?
+
+Assessment Category: Accuracy of analysis
+Assessment criteria:
+Can you distinguish the speed of employee response to incidents from the file?
+Can you distinguish the quality of an employee's response to incidents from the file?
+
+Assessment Category: Extraction of structured information
+Assessment criteria:
+Can you convert the time of employee response to incidents into a structured table (e.g., CSV, Excel)?
+Can you generate a statistical summary of the actions taken by an employee in response to an incident?
+
+Assessment Category: Searching and filtering capabilities
+Assessment criteria:
+How long does it take to identify incorrect employee responses to incidents from a 500 MB file?
+Can you distinguish the appropriateness of employee responses to incidents according to specified criteria?
+
+Assessment Category: Detection of anomalies and incidents
+Assessment criteria:
+Can you identify incorrect employee responses to incidents?
+Can you identify when an employee's response to incidents took too long?
+
+Assessment Category: Speed and performance
+Assessment criteria:
+Can you process multiple files of employee responses to incidents at the same time (e.g., 3-5 files in different formats)?
+Can you process multiple employee response files at the same time (e.g., 3-5 files in different formats)?
+
+Assessment Category: Data visualisation
+Assessment criteria:
+What periods of employee response to incidents can you present in graphical form?
+Can you generate visualizations of employee response behavior to incidents?
+
+---
+
+HumSec Sub-Dimension: Access control            
+
+Assessment Category: Ability to analyse different file formats
+Assessment criteria:
+Can you process *.txt, *.docx, .pdf, *.csv, .xlsx format files to determine employee access settings?
+
+Assessment Category: Accuracy of analysis
+Assessment criteria:
+Can you distinguish employee access errors from the file?
+Can you distinguish employee unauthorized actions from the file?
+	
+Assessment Category: Extraction of structured information
+Assessment criteria:
+Can you generate a statistical summary of incorrect actions performed by an employee?
+Can you generate a statistical summary of the types of actions performed by an employee and their access levels?
+
+Assessment Category: Searching and filtering capabilities
+Assessment criteria:
+How long does it take to identify incorrect employee actions from a 500 MB file?
+
+Assessment Category: Detection of anomalies and incidents
+Assessment criteria:
+Can you identify employee accounts that have accessed sensitive data?
+Can you determine the periods when there was active traffic to sensitive data?
+
+Assessment Category: Speed and performance
+Assessment criteria:
+Can you process multiple files of incorrect employee actions at the same time (e.g., 3-5 files of different formats)?
+
+Assessment Category: Data visualisation
+Assessment criteria:
+What employee actions dependent on access can you present in graphical form?
+Can you visualize employee action scenarios based on access levels?
+
+---
+
+HumSec Sub-Dimension: Contract compliance management
+
+Assessment Category: Ability to analyse different file formats
+Assessment criteria:
+Can you process files in *.txt, *.docx, .pdf, *.csv, and .xlsx formats to determine whether an employee is complying with the terms of their signed contract? 
+Can you process information from publicly available online sources and social networks?
+
+Assessment Category: Accuracy of analysis
+Assessment criteria:
+Can you identify employee violations of contracts from a file?
+Can you identify employee violations of contracts from publicly available online sources and social networks?
+	
+Assessment Category: Extraction of structured information
+Assessment criteria:
+Can it generate a statistical summary of employee contract violations?
+Can it generate a statistical summary of employee contract violations based on time and duration criteria?
+
+Assessment Category: Searching and filtering capabilities
+Assessment criteria:
+Can it filter out instances of employee contract non-compliance?
+
+Assessment Category: Detection of anomalies and incidents
+Assessment criteria:
+Can you identify employee breaches of contract from publicly available online sources and social networks?
+Can you identify recurring employee breaches of contract from publicly available online sources and social networks?
+
+Assessment Category: Speed and performance
+Assessment criteria:
+Can you process multiple publicly available online sources and social networks?
+
+Assessment Category: Data visualisation
+Assessment criteria:
+Can you visualize employee contract violations by level of complexity?
+
+---
+---
+
+Security-Specific Dimension: PHYSICAL SECURITY (PhySec)
+
+PhySec Sub-Dimension: Access control and authorization            
+
+Assessment Category: Ability to analyse different file formats
+Assessment criteria:
+Can it process facility security logs (e.g., CSV, XLSX) to detect unusual access attempts?
+What is the maximum file size (CSV, XLSX, MP4, JSON) can the model scan and process to detect unauthorized access to organizational assets?
+How long does it take for the model to find a specific event (e.g., unusual access) in a 100 MB MP4 file containing physical security data?
+
+Assessment Category: Accuracy of analysis
+Assessment criteria:
+Can it distinguish major access control violations from CSV, XLSX, MP4, and JSON files?
+Can it distinguish access control violations by anomaly type (e.g., repeated attempts, unusual times, incorrect card) from CSV, XLSX, and JSON files?
+
+Assessment Category: Extraction of structured information
+Assessment criteria:
+Can you convert video analysis results into a structured table (e.g., CSV, Excel)?
+How many unique access control events (e.g., unauthorized attempts, repeated scans, time discrepancies) can you extract from 1,000 records in CSV, XLSX, and JSON files?
+Can you generate a statistical summary of physical security violations from raw text reports?
+
+Assessment Category: Searching and filtering capabilities
+Assessment criteria:
+Can you filter all cases where the "clean screen" policy has been violated in the last 3 months?
+How long does it take to identify discrepancies between physical security logs and device activity data in 1GB CSV and MP4 files?
+How many specific keywords can the AI model extract from 1,000 records in CSV, XLSX, and JSON files at once for access control events (e.g., unauthorized attempts, repeated scans, time discrepancies)?
+
+Assessment Category: Speed and performance
+Assessment criteria:
+How long does it take to process 1 GB of premises security logs (e.g., CSV, XLSX) and provide a summary of the main violations?
+What is the model's analysis speed (events per second) when detecting unusual entries over the last 6 months, with 10 million records?
+Can the model process multiple files (e.g., 3-5 files of different formats) of different formats (e.g., video recordings and access logs) simultaneously without a significant drop in performance?
+
+Assessment Category: Data visualisation
+Assessment criteria:
+Can the model generate security incident timelines showing suspicious events over the past year?
+Can the model create interactive risk maps that show the most vulnerable physical security locations?
+
+---
+
+PhySec Sub-Dimension: Incident management and response            
+
+Assessment Category: Ability to analyse different file formats
+Assessment criteria:
+Can you analyze incident management logs (CSV, XLSX) and PDF incident reports to determine response times and actions taken by responsible parties?
+What is the maximum size of an XLSX or CSV file that the model can scan and analyze to identify discrepancies between recorded incidents and response actions?
+How long does it take to find a specific incident (e.g., IT system failure or physical intrusion) in a 100 MB DOCX or PDF document to determine the incident response actions of the persons responsible for the incident?
+
+Assessment Category: Accuracy of analysis
+Assessment criteria:
+Can it distinguish incidents by their level of criticality (e.g., minor breach, medium threat, high-priority accident) from DOCX and CSV data sets?
+Can the model accurately identify incidents such as physical intrusions, technical system failures, or threats to employee safety by analyzing incident reports in PDF format?
+
+Assessment Category: Extraction of structured information
+Assessment criteria:
+Can it convert incident management reports (PDF, DOCX) into a structured CSV or SQL database with separate event dates, locations, and response teams?
+How many incidents can the model systematize from 1,000 records in a CSV file containing incident registration data?
+Can the model automatically generate a summary of the most common causes of incidents and their recurrence frequency based on the security reports provided?
+
+Assessment Category: Searching and filtering capabilities
+Assessment criteria:
+Can the GenAI model filter incident logs (e.g., security breaches, critical system failures) by incident type, time, location, and responsible team?
+How long does it take for the model to process a 1 GB PDF document and provide a summary of the incident (e.g., unauthorized access or emergency event) from the PDF document?
+How many specific keywords (e.g., "hack," "technical failure") can the model find in a CSV incident database at one time?
+
+Assessment Category: Speed and performance
+Assessment criteria:
+How long does it take for the GenAI model to process a 1 GB incident log dataset (CSV, XLSX) and provide a summary of key events?
+What is the model's analysis speed (events per second) for large incident management data sets that record real-time security notifications?
+Can the GenAI model simultaneously process multiple files of different formats (e.g., PDF, DOCX, CSV) about incidents and generate a unified analysis?
+
+Assessment Category: Data visualisation
+Assessment criteria:
+Can the GenAI model generate interactive visualizations (e.g., time series charts) from incident log data (CSV, XLSX, JSON), showing the distribution of incidents over time and location?
+What aspects of incident management data (e.g., response time, most common incident types, locations) can the model present in graphical form (e.g., heat maps, timelines, chart format)?
+
+---
+
+PhySec Sub-Dimension: Employee and contractor security            
+
+Assessment Category: Ability to analyse different file formats
+Assessment criteria:
+Can you analyze employee and contractor access logs (PDF, DOCX) and identify access violations, such as unauthorized access to restricted areas?
+What is the maximum size of a CSV or XLSX file that the model can scan and analyze to identify discrepancies in employee identity verification or access control data?
+How long does it take for the model to identify a specific employee or contractor access event in a 100 MB PDF or DOCX document?
+
+Assessment Category: Accuracy of analysis
+Assessment criteria:
+Can the model accurately identify employee and contractor security violations (e.g., unauthorized access, time tracking manipulation) in PDF and CSV files?
+Can the model distinguish discrepancies between contractor employment contracts and actual access control data to identify potential security breaches?
+Can the model detect discrepancies between employee and contractor logins to physical or IT systems and incident log timestamps?
+
+Assessment Category: Extraction of structured information
+Assessment criteria:
+Can the GenAI model convert employee and contractor access control logs (CSV, XLSX) into a structured database that clearly displays all entries and exits?
+How many security incidents can the model systematize from 1,000 entries in the employee or contractor security log (CSV, XLSX)?
+Can the model generate a summary of the most common physical security violations by employees and contractors based on the organization's security policy?
+
+Assessment Category: Searching and filtering capabilities
+Assessment criteria:
+Can the model filter employee and contractor security incidents by type of violation, time, location, and responsible person?
+How long does it take for the model to process a 1 GB PDF document and provide a summary of an employee or contractor security incident?
+How many specific keywords (e.g., "unauthorized access," "violated work schedule," "unauthorized login") can the model find at once in CSV or XLSX format employee security data?
+
+Assessment Category: Speed and performance
+Assessment criteria:
+How long does it take for the GenAI model to process a 1 GB dataset of employee and contractor security data (CSV, XLSX) and provide a summary of key incidents?
+What is the model's analysis speed (events per second) for employee and contractor security datasets?
+Can the GenAI model simultaneously process multiple files in different formats (e.g., PDF, DOCX, CSV) about employee and contractor incidents and generate a unified analysis?
+
+Assessment Category: Data visualisation
+Assessment criteria:
+Can the GenAI model generate interactive visualizations (e.g., time series charts) of employee and contractor access incidents, showing their distribution over time and location?
+What aspects of employee and contractor security (e.g., risk levels, most common incidents, location security breaches) can the model present in graphical form (e.g., heat maps, timelines, interactive charts)?
+
+---
+
+PhySec Sub-Dimension: Physical security policies and compliance
+
+Assessment Category: Ability to analyse different file formats
+Assessment criteria:
+Can the GenAI model process physical security policy documents (PDF, DOCX) and identify non-compliance with the organization's security standards and compliance requirements (e.g., GDPR, NIS 2 Directive)?
+Can the model identify from reports in different formats (XLSX, CSV) whether the organization complies with established physical security procedures (e.g., access control, visitor registration, alarm frequency checks)?
+How long does it take for the model to identify a specific policy violation (e.g., uncoordinated change in security procedures) in a 100 MB PDF or DOCX document?
+
+Assessment Category: Accuracy of analysis
+Assessment criteria:
+Can the model determine whether the organization's physical security policy complies with national and international standards (e.g., ISO 27001, NIS 2 Directive)?
+Can the model determine which points of the physical security policy do not comply with the organization's operating practices by analyzing incident reports and security audits?
+
+Assessment Category: Extraction of structured information
+Assessment criteria:
+Can the GenAI model convert physical security policy documents (PDF, DOCX) into a structured database (SQL, CSV) that clearly highlights the key policy requirements?
+How many policy discrepancies can the model systematize from 1,000 entries in physical security audit reports (CSV, XLSX)?
+Can the model generate a summary of the most common physical security policy violations based on the analysis of different sources (documents, databases)?
+
+Assessment Category: Searching and filtering capabilities
+Assessment criteria:
+Can the model filter physical security policy document records based on compliance criteria, such as "access control requirements" and "security alarm verification"?
+How long does it take for the model to process a 1 GB PDF document and provide a summary of a specific policy requirement (e.g., storage period for video surveillance systems)?
+How many specific keywords (e.g., "access control," "perimeter protection," "biometric authentication") can the model find in physical security policy documents at one time?
+
+Assessment Category: Speed and performance
+Assessment criteria:
+How long does it take for the GenAI model to process a 1 GB set of physical security policy documents (PDF, DOCX, XLSX) and provide a summary of the main discrepancies?
+What is the model's analysis speed (events per second) for physical security policy audit data sets?
+Can the GenAI model simultaneously process multiple files of different formats (e.g., PDF, DOCX, CSV) on physical security policy and generate a unified analysis?
+
+Assessment Category: Data visualisation
+Assessment criteria:
+Can the GenAI model generate interactive visualizations (e.g., time series charts) about changes in physical security policies and their impact on the organization's security status?
+What aspects of physical security policy compliance (e.g., procedural compliance, risk factors, frequency of non-compliance) can the model present in graphical form (e.g., heat maps, timelines, interactive charts)?
+
+---
+---
+
+Security-Specific Dimension: OPERATIONAL SECURITY (OpSec)
+
+OpSec Sub-Dimension: Network and information systems security policy
+
+Assessment Category: Ability to analyse files in different formats
+Assessment criteria:
+Can you process a *.txt, *.docx, *.pdf file to determine policy rules and requirements?
+Can you process a *.csv, *.xlsx file to determine policy rules and requirements?
+Can you process a *.png, *.jpg file to determine policy rules and requirements?
+ 
+Assessment Category: Accuracy of analysis
+Assessment criteria:
+Can you identify from documents the legislation and standards on which the organization's security policy is based?
+Can you assess the organization's compliance with legislation and the standards on which the organization's security policy is based from documents?
+ 
+Assessment Category: Extracting structured information
+Assessment criteria:
+Can you convert the provided security policy documents of an organization into a structured table (e.g. CSV, XLSX)?
+Can you generate a statistical report on the distribution of responsibilities and roles in the organization?
+Can you generate a statistical report on security policy changes and updates?
+ 
+Assessment Category: Search and filtering skills
+Assessment criteria:
+Can you filter security policy documents by the date the document was updated?
+Can you find the secure email policy?
+How many specific keywords can be found at once in a security policy document?
+ 
+Assessment Category: Anomaly and incident detection
+Assessment criteria:
+Can you detect conflicts in security policies or inconsistent requirements between different documents?
+Do you expect to find unclear or missing responsibility centers in security policy documents?
+Can you detect security policies that have not been updated for more than 18 months?
+ 
+Assessment Category: Speed and performance
+Assessment criteria:
+How many different documents of the same type (*.pdf) can be processed at the same time in order to establish policy rules and requirements?
+How many different types of documents (e.g. *.png *.docx, *.csv) can be processed simultaneously to determine policy rules and requirements?
+How many words per second can the model process?
+ 
+Assessment Category: Data visualisation
+Assessment criteria:
+Can you generate a hierarchical diagram of the security policy structure (components)?
+Can it generate a visualization of the compliance of security policies with legislation and standards?
+
+---
+
+OpSec Sub-Dimension: Cybersecurity risk analysis
+
+Assessment Category: Ability to analyze files in different formats
+Assessment criteria:
+Can you process a *.txt, *.docx, *.pdf file to determine policy rules and requirements?
+Can you process a *.csv, *.xlsx file to determine policy rules and requirements?
+Can you process a *.png, *.jpg file to determine policy rules and requirements?
+ 
+Assessment Category: Accuracy of analysis
+Assessment criteria:
+Is the model able to recognize a risk if it is described in different words?
+Can the model assess which risks are most important?
+ 
+Assessment Category: Extracting structured information
+Assessment criteria:
+Can you provide a structured table from the risk analysis documents showing the security measures used and missing in the organization?
+Can you generate a structured list of risk reduction actions?
+Can you generate a statistical reference for risk assessments?
+ 
+Assessment Category: Search and filtering skills
+Assessment criteria:
+Can you filter risk analysis documents by the date the document was updated?
+Can the model distinguish between internal and external risks?
+How many specific keywords can be found at once in a security policy document?
+ 
+Assessment Category: Anomaly and incident detection
+Assessment criteria:
+Can you detect inconsistencies between different risk analysis documents?
+Can it identify inconsistencies between the risk analysis policy and the security measures actually used by comparing the risk analysis documents with the stored audit reports?
+Can you detect if there is a breach of the risk assessment periodicity requirements?
+ 
+Assessment Category: Speed and performance
+Assessment criteria:
+How many different documents of the same type (*.pdf) can be processed at the same time in order to establish policy rules and requirements?
+How many different types of documents (e.g. *.png *.docx, *.csv) can be processed simultaneously to determine policy rules and requirements?
+ 
+Assessment Category: Data visualization
+Assessment criteria:
+Can you generate a risk distribution matrix based on impact and probability?
+Can you generate a risk distribution chart by category (e.g. internal threat, external threat, supply chain threat)?
+
+---
+
+OpSec Sub-Dimension: Cyber incident management
+
+Assessment Category: Ability to analyze files in different formats
+Assessment criteria:
+Can you process .log and .evtx files to analyse user actions for anomalies?
+Can you process .pcap files to perform continuous analysis of network traffic records for anomalies?
+Can you automatically decompile or disassemble executable files (.exe, .dll, .elf formats) during the incident management process?
+Can you process structured .json and .csv files from a SIEM system monitoring tool?
+ 
+Assessment Category: Accuracy of analysis
+Assessment criteria:
+Can you identify the characteristics of a cyber incident and choose the right type of incident based on these?
+Can you accurately identify the amount of property damage when a cyber incident is detected?
+ 
+Assessment Category: Extracting structured information
+Assessment criteria:
+Can it extract information from unstructured sources (logs, network traffic) and present it in a structured format?
+Can it correlate information from different sources (different logs, network traffic documents) to identify complex cyber-attacks?
+ 
+Assessment Category: Search and filtering skills
+Assessment criteria:
+How long can it take to find specific events in log files based on the filters provided (e.g. time, user ID, IP address)?
+Can you efficiently allocate resources for searching and filtering large data sets?
+ 
+Assessment Category: Anomaly and incident detection
+Assessment criteria:
+Can it distinguish between isolated atypical events and real cyber-threat actions?
+Can it carry out validation and prioritisation of anomalies, ensuring a rapid response to real threats?
+What are the principles on which it can detect anomalies and cyber incidents (based on rules, behavioural analysis, machine learning techniques)?
+ 
+Assessment Category: Speed and performance
+Assessment criteria:
+What is the maximum number of cyber incidents you could detect and neutralize at any one time?
+While conducting performance assurance can you take into account the requirements of the EU NIS 2 Directive and Lithuanian legislation on incident detection and management?
+How long can you take from the detection of an incident to its full analysis and classification?
+ 
+Assessment Category: Data visualization
+Assessment criteria:
+Can you generate a sequence of incident management actions based on the chronology of what happened.
+Can you generate attack chain visualizations during the incident documentation process (.png and .svg format)?
+
+---
+
+OpSec Sub-Dimension: Business continuity
+
+Assessment Category: Ability to analyze files in different formats
+Assessment criteria:
+Can you process .pdf files to identify and track the steps in a business continuity management plan?
+Can you process .word files to identify and track the steps in a business continuity management plan?
+Can you identify the activation conditions in the Business Continuity Plan?
+ 
+Assessment Category: Accuracy of analysis
+Assessment criteria:
+Can you systematically classify and prioritize data and recover it after an incident?
+Can you predict recovery time (Recovery Time Objective) and potential data loss (Recovery Point Objective)
+ 
+Assessment Category: Extracting structured information
+Assessment criteria:
+Can you check actual incident records against the business continuity policy and identify inconsistencies?
+Can you extract key information from SLA (Service Level Agreement) documents and assess their compliance with continuity requirements?
+ 
+Assessment Category: Search and filtering skills
+Assessment criteria:
+How long can it take for you to find specific events in log files based on the filters provided (e.g. time, user ID, IP address)?
+ 
+Assessment Category: Anomaly and incident detection
+Assessment criteria:
+Can you classify and prioritize incidents in the business continuity planning process?
+Can you identify and flag recurring business continuity issues and develop a plan to address them?
+ 
+Assessment Category: Speed and performance
+Assessment criteria:
+How long it can take for you to generate a prioritized disaster recovery plan based on real-time data (logs, security event logs, monitoring data).
+Can the business continuity procedure formulate tasks and allocate them to the members of the responsible team?
+Can you ensure fast and efficient management of the backup recovery process by defining the recovery time interval (RTO) and testing these parameters?
+ 
+Assessment Category: Data visualization
+Assessment criteria:
+Can you visualize the process of restoring systems, including system dependencies and potential interferences?
+Can you provide visualizations and a report on the effectiveness of the business continuity management plan for networks and information systems?
+ 
+OpSec Sub-Dimension: Access control
+Assessment Category: Ability to analyze files in different formats
+Assessment criteria:
+Can you process a *.txt, *.docx, *.pdf file to determine policy rules and requirements?
+Can you process a *.csv, *.xlsx file to determine policy rules and requirements?
+Can you process a *.png, *.jpg file to determine policy rules and requirements?
+ 
+Assessment Category: Accuracy of analysis
+Assessment criteria:
+Can the model detect discrepancies between policy and actual consumer rights?
+Can the model accurately identify the individual elements of an access control policy (e.g. authentication requests)?
+ 
+Assessment Category: Extracting structured information
+Assessment criteria:
+Can you generate a structured table for the management of access to the users.
+Can you generate a structured password policy table?
+Can you generate a statistical report on access audits
+ 
+Assessment Category: Search and filtering skills
+Assessment criteria:
+Can you filter access control documents by the date the document was updated?
+Can the model filter access control information according to access control methods (RBAC, ABAC, Just-in-Time Access)?
+How many specific keywords can be found at once in a security policy document?
+ 
+Assessment Category: Anomaly and incident detection
+Assessment criteria:
+Can you detect inconsistencies and contradictions in access policy documents?
+Can you detect whether the review periodicity of privileges for privileged accounts has been met?
+Can you find out if there is a defined timeframe for closing accounts after an employee leaves the organization?
+ 
+Assessment Category: Speed and performance
+Assessment criteria:
+How many different documents of the same type (*.pdf) can be processed at the same time in order to establish policy rules and requirements?
+How many different types of documents (e.g. *.png *.docx, *.csv) can be processed simultaneously to determine policy rules and requirements?
+How many words per second can the model process?
+ 
+Assessment Category: Data visualization
+Assessment criteria:
+Can you generate a flowchart for the access and control process?
+Can you generate a diagram of access policy coverage for various systems?
+
+---
+---
+
+Security Specific Dimension: Technical Security (TechSec)
+
+TechSec Sub-Dimension: Network security
+
+Assessment Category: Ability to analyse files in different formats
+Assessment criteria:
+Can you process a .pcap file to identify network security breaches or incidents?
+Can you process a .log file to detect network security breaches or incidents?
+Can you process a .csv file to identify network security breaches or incidents?, .log, .csv, .json)
+Can you process a .json file to identify network security breaches or incidents?
+What is the maximum size of network traffic a file can you read?
+How long does it take for you to find a specific event (e.g. failed login, unusual access) in a 100 MB .pcap or .log file?
+
+Assessment Category: Accuracy of analysis
+Assessment criteria:
+Can you distinguish key network events (e.g. connections, disconnections, errors) from the network traffic file?
+Can you distinguish traffic by protocol (e.g. TCP, UDP, HTTPS, FTP) from the network analysis file?
+ 
+Assessment Category: Extracting structured information
+Assessment criteria:
+Can you convert network traffic data into a structured table (e.g. CSV, Excel)?
+How many network events (e.g. unique IP addresses, ports) can you extract from a 1000-entry log file?
+Can you generate a statistical summary of network traffic (e.g. traffic size, most frequent IP addresses, protocols used)?
+ 
+Assessment Category: Search and filtering skills
+Assessment criteria:
+Can you filter network entries by IP address, port or time?
+How long can it take for you to identify suspicious IP addresses or unusual traffic sizes from a 500 MB .pcap file?
+How many specific keywords can you search in a network log file at once?
+ 
+Assessment Category: Anomaly and incident detection
+Assessment criteria:
+Can you detect potential intrusions (e.g. unauthorised logins, DDoS attacks) from network traffic data?
+What network security events can you automatically detect (e.g. reconnections, unexpected packet flows)?
+Can you identify the time period when the unusual network activity occurred?
+ 
+Assessment Category: Speed and performance
+Assessment criteria:
+How long can you process a 1 GB network traffic file and provide a summary of key events?
+What is the rate of model analysis (events per second) in large network traffic files?
+Can you handle multiple network traffic files at the same time (e.g. 3-5 files of different formats)?
+ 
+Assessment Category: Data visualisation
+Assessment criteria:
+Can you generate visualizations of network activity (e.g. most used IP addresses, port activity)?
+What elements of network traffic can you represent in graphical form (e.g. timing diagram, IP traffic map)?
+ 
+---
+
+TechSec Sub-Dimension: Encryption and data protection
+
+Assessment Category: Ability to analyse files in different formats
+Assessment criteria:
+Can you parse a .pcap file to determine whether the data was transmitted encrypted or unencrypted?
+Can the .log file identify the use of encryption protocols (e.g. TLS, SSL) or their errors?
+Can you parse a .csv file to check that the data has been properly encrypted?
+Can you parse a .json file of security configurations to identify inconsistencies in encryption policies?
+How long does it take to you to verify that a 100 MB file (e.g. a data export) has been encrypted according to policy?
+What is the maximum size of encryption record file that can you process and analyze simultaneously?
+ 
+Assessment Category: Accuracy of analysis
+Assessment criteria:
+Can you set the encryption algorithm used (e.g. AES-256, RSA, TLS 1.3)?
+Can you identify weak or obsolete encryption methods in log files or network traffic?
+ 
+Assessment Category: Extracting structured information
+Assessment criteria:
+Can you build a table of encryption configurations from log files (e.g. which devices use which encryption protocol)?
+How many encryption policy violations can you automatically exclude from 1000 records?
+Can you provide a summary: how much data was transmitted encrypted vs. unencrypted?
+ 
+Assessment Category: Search and filtering skills
+Assessment criteria:
+Can you filter data based on the encryption algorithm or protocol used?
+Can you identify devices that use untrusted or unencrypted connections?
+How many encryption parameters or key phrases (e.g. "unencrypted", "TLS1.0", "weak cipher") can you search for in a log file at once?
+ 
+Assessment Category: Anomaly and incident detection
+Assessment criteria:
+Can you detect unauthorised attempts to bypass encryption mechanisms (e.g. downgrade attacks)?
+Can you identify time intervals when encryption mechanisms have been disabled or malfunctioned?
+Can you detect attempts to use fraudulent certificates?
+ 
+Assessment Category: Speed and performance
+Assessment criteria:
+How long can it take for you to process a security log of 1 GB and provide information about the encryption status?
+How many encryption configurations or breaches can you process per second?
+Can you analyse the encryption configurations of multiple systems from different files simultaneously?
+ 
+Assessment Category: Data visualization
+Assessment criteria:
+Can you generate a graph of encrypted vs. unencrypted data transmission?
+Can you visualize certificate expiry and risk expiry dates on a timeline?
+ 
+---
+
+TechSec Sub-Dimension: Access control
+ 
+Assessment Category: Ability to analyse files in different formats
+Assessment criteria:
+Can you parse a .log file to identify logins, logouts or unauthorised access attempts?
+Can you process a .csv file with user accounts and their permissions to identify inconsistencies or excessive permissions?
+Can you identify access policy configurations and their application from a .json file?
+Can you handle .xml files describing authentication rules or user groups?
+What is the maximum size of the access control data file that you can process simultaneously?
+How long does it take for you to find a specific user or account with privileged access in a 100 MB .log file?
+ 
+Assessment Category: Accuracy of analysis
+Assessment criteria:
+Can you identify discrepancies between account status and access rights (e.g. inactive account with active rights)?
+Can you detect unauthorised access attempts or frequently repeated logins?
+ 
+Assessment Category: Extracting structured information
+Assessment criteria:
+Can you create a table from files with user accounts, their permissions, last login date and activity status?
+How many accounts with privileged access can you identify from 1000 user records?
+Can you generate a summary of the number of active users, accounts without logins in 90 days, or unauthorised accounts?
+ 
+Assessment Category: Search and filtering skills
+Assessment criteria:
+Can you filter users by their level of permissions (e.g. administrator, read permissions, restricted access)?
+Can you identify which accounts have not been used for more than 3 months?
+How many accounts with a certain attribute (e.g. "active=true", "role=admin") can you find at once from a large .csv file?
+ 
+Assessment Category: Anomaly and incident detection
+Assessment criteria:
+Can you recognise privilege escalation attempts?
+Can you identify accounts that have gained access to sensitive systems or data?
+Can you detect periods of heavy or suspicious traffic?
+ 
+Assessment Category: Speed and performance
+Assessment criteria:
+How long can it take for you to process a 1 GB log file and provide information on access control violations?
+How many accounts with potential infringements can you check per second?
+Can you handle multiple user access configurations from different systems or files (e.g. AD, IAM, HR systems) simultaneously?
+ 
+Assessment Category: Data visualisation
+Assessment criteria:
+Can you generate a visualisation showing the distribution of privileged users in your organisation?
+Can you produce a time graph showing the activity of accounts or the dynamics of access attempts?
+
+---
+
+TechSec Sub-Dimension: Incident management
+ 
+Assessment Category: Ability to analyse files in different formats
+Assessment criteria:
+Can you process the .log file to identify security incidents (e.g. hacks, authentication bypass attempts)?
+Can you identify the type, severity and affected systems from incident records in .json format?
+Can you analyse the .csv files recording incidents and their status to determine the effectiveness of the response?
+Can you process incident reports in .xml format and extract key threat information?
+What is the maximum size of the incident log file that you can process per analysis request?
+How long does it take for you to identify 3 critical incidents from a 500 MB log file?
+ 
+Assessment Category: Accuracy of analysis
+Assessment criteria:
+Can you identify which systems or users were affected by the incident?
+Can you link different events from several log files into one incident?
+ 
+Assessment Category: Extracting structured information
+Assessment criteria:
+Can you generate a table from incident logs with incident ID, type, date, affected resources, response status?
+Can you provide a summary of the most frequent sources of incidents (e.g. IP addresses, users, countries)?
+Can you determine how many incidents per month were resolved beyond the SLA?
+ 
+Assessment Category: Search and filtering skills
+Assessment criteria:
+Can you filter incident records by severity (critical, high, medium, low)?
+Can you find all incidents related to a particular user, IP address or time period?
+Can you find undiagnosed or untreated incidents from a large list of incidents?
+ 
+Assessment Category: Anomaly and incident detection
+Assessment criteria:
+Can you detect a new or unusual incident pattern (zero-day)?
+Can you identify a sequence of incidents that indicates a coordinated attack?
+Can you identify patterns or sources of recurring incidents?
+ 
+Assessment Category: Speed and performance
+Assessment criteria:
+How long can you process an incident log of 1 GB and provide a summary of the most important incidents?
+How many incidents can you process per minute by analysing security logs?
+Can you handle incident logs from multiple sources (e.g. SIEM, IDS, antivirus logs) simultaneously?
+ 
+Assessment Category: Data visualisation
+Assessment criteria:
+Can you generate a timeline of incidents with their severity level and frequency?
+Can you visualise incident impact areas on a network or systems map?
+
+---
+
+TechSec Sub-Dimension: Software and hardware management
+ 
+Assessment Category: Ability to analyse files in different formats
+Assessment criteria:
+Can you process a .csv file with equipment inventory data and identify inconsistencies (e.g. mismatched versions, missing instruments)?
+Can you determine from the .log files when the last software update was performed?
+Can you process .json files containing equipment configuration data and identify discrepancies?
+Can you analyze .xml configuration files to determine the software compatibility of devices?
+How many device records can you analyse at once in a 100 MB inventory file?
+How long does it take for you to identify devices with outdated software versions from a 1 GB log file?
+ 
+Assessment Category: Accuracy of analysis
+Assessment criteria:
+Can you detect missing security updates on devices?
+Can you identify illegally connected (uninventoried) devices from log files?
+ 
+Assessment Category: Extracting structured information
+Assessment criteria:
+Can you generate a table with information about all devices in the organisation, their status, operating system, software and update status?
+How many devices with critical vulnerabilities can you automatically exclude from 1000 records?
+Can you provide a summary of how many devices are not compliant with security requirements (e.g. no anti-virus, not updated)?
+ 
+Assessment Category: Search and filtering skills
+Assessment criteria:
+Can you filter devices by software version, manufacturer or operating system?
+Can you identify devices whose last update date exceeds a threshold (e.g. 30 days)?
+How many parameters (e.g. model, OS version, antivirus, last update) can you use for filtering at once?
+ 
+Assessment Category: Anomaly and incident detection
+Assessment criteria:
+Can you detect devices running unverified or potentially dangerous software?
+Can you detect when devices are connected to the network without security configurations or licences?
+Can you identify devices that have changed hardware components (e.g. RAM, disk) without registration?
+ 
+Assessment Category: Speed and performance
+Assessment criteria:
+How long can it take for you to process a 1 GB set of equipment status reports?
+How many software or hardware records can you evaluate per second?
+Can you handle multiple sources at the same time - e.g. SCCM, Active Directory, facilities management systems?
+ 
+Assessment Category: Data visualisation
+Assessment criteria:
+Can you generate a graph of the distribution of devices by OS type or software version?
+Can you provide a visualisation showing the status of device updates (e.g. updated vs. not)?
+ 
+---
+
+TechSec Sub-Dimension: Data backup management
+ 
+Assessment Category: Ability to analyse files in different formats
+Assessment criteria:
+Can you process .log files to determine whether backups have been successfully created?
+Can you identify storage location, frequency and encryption settings from .json backup configurations?
+Can you analyze a .csv file with backup logs and identify failed attempts or discrepancies?
+Can you process .xml files describing backup policies and check their compliance with security requirements?
+How many backup records of 100 MB files can you process at once?
+How long does it take for you to find the time and location of the last successful backup in a large log file?
+ 
+Assessment Category: Accuracy of analysis
+Assessment criteria:
+Can you determine whether the backup can restore all the data you need (based on the results of testing)?
+Can you distinguish between copies that have been damaged, missing or incomplete?
+ 
+Assessment Category: Extracting structured information
+Assessment criteria:
+Can you generate a table with backup data: source, destination, date, status, encryption, test results?
+How many backup records with irregularities (e.g. overstay) can you identify out of 1000 records?
+Can you automatically exclude copies that cannot be restored by policy?
+ 
+Assessment Category: Search and filtering skills
+Assessment criteria:
+Can you filter copies by date, source, destination or encryption status?
+Can you identify systems that have not been backed up for more than 7 days?
+Can you find backups that have failed a restore test?
+ 
+Assessment Category: Anomaly and incident detection
+Assessment criteria:
+Can you detect unauthorised access attempts to backups?
+Can you detect cases where copies have not been encrypted, even though this is required by policy?
+Can you identify copy storage locations that are unsafe or uncertified?
+ 
+Assessment Category: Speed and performance
+Assessment criteria:
+How long can it take for you to process a set of backup logs of 1 GB and provide analysis?
+How many backup records can you evaluate per second?
+Can you process backup data from multiple systems (e.g. servers, databases, user computers) simultaneously?
+ 
+Assessment Category: Data visualisation
+Assessment criteria:
+Can you provide a graph of how long it takes to restore copies by period?
+Can you provide a graph of how long it takes to restore copies under the system?
+ 
+---
+
+TechSec Sub-Dimension: Website and application security
+ 
+Assessment Category: Ability to analyse files in different formats
+Assessment criteria:
+Can you process .log files to identify security breaches of a website or application (e.g. SQL injections, XSS testing)?
+Can you parse .json logs from the Web Application Firewall (WAF) to detect attacks or blocks?
+Can you process .csv files containing user activity data and detect suspicious behaviour?
+Can you identify security vulnerabilities (e.g. insecure data entry, outdated libraries) from .html or .js files?
+How many web events can you process from a 500 MB log file and how long does it take?
+Can you determine from code analysis files whether passwords or API keys are included in the software code?
+ 
+Assessment Category: Accuracy of analysis
+Assessment criteria:
+Can you accurately determine whether a website is using a secure version of TLS and a valid certificate?
+Can you accurately determine whether an application violates authentication or session management principles?
+ 
+Assessment Category: Extracting structured information
+Assessment criteria:
+Can you generate a table with the vulnerabilities detected, their types, priorities and potential impacts?
+How many unique vulnerabilities can you extract from 1000 security records?
+Can you provide a summary of the encryption methods, authentication methods and security mechanisms used in the application?
+ 
+Assessment Category: Search and filtering skills
+Assessment criteria:
+Can you filter log entries by attack type (e.g. SQLi, XSS, CSRF)?
+Can you find all the places on the site that lack HTTPS or a valid certificate?
+How many key phrases (e.g. "eval()", "<script>", "SELECT * FROM") can you search for in the code or in the log records at the same time?
+ 
+Assessment Category: Anomaly and incident detection
+Assessment criteria:
+Can you detect automated attempts to bypass authentication (e.g. bruteforce)?
+Can you detect embedded malicious code in the JS/CSS files of a website or application?
+Can you identify attempts to use expired session identifiers?
+ 
+Assessment Category: Speed and performance
+Assessment criteria:
+How long can it take for you to process a 1 GB web log file and identify security incidents?
+How many code files or pages can you evaluate for security per second?
+Can you analyse multiple websites or applications at the same time and provide vulnerability summaries?
+ 
+Assessment Category: Data visualisation
+Assessment criteria:
+Can you visualise the distribution of security vulnerabilities by type and criticality level?
+Can you provide a timeline of when and how often attempts were made to breach the system?
+ 
+---
+
+TechSec Sub-Dimension: Audit and monitoring
+ 
+Assessment Category: Ability to analyse files in different formats
+Assessment criteria:
+Can you process .log files from different systems (e.g. operating system, network devices, SIEM) to identify audit events?
+Can you handle .json event data related to user activity, configuration changes or system errors?
+Can you analyse user activity logs from a .csv file and detect discrepancies?
+Can you process .evtx files (Windows Event Log) and identify important security or system events?
+How many audit records can you view and analyse from a 1 GB file?
+How long does it take for you to identify suspicious activity from 100 MB of system logs?
+ 
+Assessment Category: Accuracy of analysis
+Assessment criteria:
+Can you reliably distinguish between errors and safety events?
+Can you determine whether the audit function has been temporarily disabled or bypassed?
+ 
+Assessment Category: Extracting structured information
+Assessment criteria:
+Can you create a table with the most important audit records: event date/time, user, action, source?
+Can you generate a report on administrator activity and changes to system settings?
+Can you provide a summary of authentication events, their success/failure statistics?
+ 
+Assessment Category: Search and filtering skills
+Assessment criteria:
+Can you filter audit records by user, time, event type or system?
+Can you quickly find events related to audit policy violations (e.g. log deletion, time change)?
+Can you determine whether audit records have been accessed at an unauthorised time or by an unauthorised user?
+ 
+Assessment Category: Anomaly and incident detection
+Assessment criteria:
+Can you detect attempts to modify or delete audit records?
+Can you identify when the audit function has been disabled or disrupted?
+Can you identify unusual user activity from audit records (e.g. off-duty activity, new IP)?
+ 
+Assessment Category: Speed and performance
+Assessment criteria:
+How long can it take for you to process an audit log file of 1 GB and provide a summary of critical events?
+How many audit records per second can you process to accurately identify security events?
+Can you analyse audit logs for multiple systems (e.g. servers, network, workstations) simultaneously?
+ 
+Assessment Category: Data visualisation
+Assessment criteria:
+Can you visualise the activity of administrators over time?
+Can you provide a graph showing the dynamics and locations of successful and unsuccessful connections?
+
+---
+
+
